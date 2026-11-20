@@ -1,0 +1,107 @@
+2026-11-20 14:54:04 | INFO     | ==================================================
+2026-11-20 14:54:04 | INFO     | Inicio de sesión del sistema Software FJ
+2026-11-20 14:55:22 | INFO     | ==================================================
+2026-11-20 14:55:22 | INFO     | Inicio de sesión del sistema Software FJ
+2026-11-20 14:55:23 | INFO     | Inicio de simulación de 23 operaciones
+2026-11-20 14:57:28 | INFO     | ==================================================
+2026-11-20 14:57:28 | INFO     | Inicio de sesión del sistema Software FJ
+2026-11-20 14:57:28 | INFO     | Inicio de simulación de 23 operaciones
+2026-11-20 14:57:28 | DEBUG    | Cliente validado: María Pérez
+2026-11-20 14:57:28 | INFO     | Cliente registrado: María Pérez
+2026-11-20 14:57:28 | INFO     | ✅ 1. Registrar cliente válido — María Pérez — Exitoso
+2026-11-20 14:57:28 | DEBUG    | Cliente validado: Juan Gómez
+2026-11-20 14:57:28 | INFO     | Cliente registrado: Juan Gómez
+2026-11-20 14:57:28 | INFO     | ✅ 2. Registrar cliente válido — Juan Gómez — Exitoso
+2026-11-20 14:57:28 | ERROR    | No se pudo crear el cliente: [FJ-102] El nombre debe tener al menos 2 caracteres.
+2026-11-20 14:57:28 | ERROR    | ❌ Falló: [FJ-102] El nombre debe tener al menos 2 caracteres.
+2026-11-20 14:57:28 | ERROR    | No se pudo crear el cliente: [FJ-101] El documento debe tener al menos 5 dígitos y solo números.
+2026-11-20 14:57:28 | ERROR    | ❌ Falló: [FJ-101] El documento debe tener al menos 5 dígitos y solo números.
+2026-11-20 14:57:28 | ERROR    | No se pudo crear el cliente: [FJ-101] El documento debe tener al menos 5 dígitos y solo números.
+2026-11-20 14:57:28 | ERROR    | ❌ Falló: [FJ-101] El documento debe tener al menos 5 dígitos y solo números.
+2026-11-20 14:57:28 | INFO     | Servicio registrado: Sala: Conferencias A
+2026-11-20 14:57:28 | INFO     | ✅ 6. Crear servicio: Sala de Conferencias A — Exitoso
+2026-11-20 14:57:28 | INFO     | Servicio registrado: Sala: Pequeña B
+2026-11-20 14:57:28 | INFO     | ✅ 7. Crear servicio: Sala Pequeña B — Exitoso
+2026-11-20 14:57:28 | INFO     | Servicio registrado: Equipo: Portátil (HP Pavilion 15)
+2026-11-20 14:57:28 | INFO     | ✅ 8. Crear servicio: Alquiler de Portátil — Exitoso
+2026-11-20 14:57:28 | INFO     | Servicio registrado: Asesoría en Programación
+2026-11-20 14:57:28 | INFO     | ✅ 9. Crear servicio: Asesoría en Programación — Exitoso
+2026-11-20 14:57:28 | INFO     | Servicios disponibles consultados
+2026-11-20 14:57:28 | INFO     | ✅ 10. Listar todos los servicios disponibles — Exitoso
+2026-11-20 14:57:28 | INFO     | Nueva reserva creada — Cliente: María Pérez — Servicio: Sala: Conferencias A
+2026-11-20 14:57:28 | INFO     | Reserva creada en el índice 0
+2026-11-20 14:57:28 | INFO     | ✅ 11. Reserva — María reserva Sala A por 2 horas — Exitoso
+2026-11-20 14:57:28 | INFO     | Nueva reserva creada — Cliente: Juan Gómez — Servicio: Equipo: Portátil (HP Pavilion 15)
+2026-11-20 14:57:28 | INFO     | Reserva creada en el índice 1
+2026-11-20 14:57:28 | INFO     | ✅ 12. Reserva — Juan alquila portátil por 5 horas — Exitoso
+2026-11-20 14:57:28 | INFO     | Reserva CONFIRMADA — Costo: $59,500.0
+2026-11-20 14:57:28 | DEBUG    | Proceso de confirmación finalizado
+2026-11-20 14:57:28 | INFO     | ✅ 13. Confirmar la reserva de María — Exitoso
+2026-11-20 14:57:28 | INFO     | Reserva CONFIRMADA — Costo: $89,250.0
+2026-11-20 14:57:28 | DEBUG    | Proceso de confirmación finalizado
+2026-11-20 14:57:28 | INFO     | Reserva PROCESADA — Servicio: Equipo: Portátil (HP Pavilion 15)
+2026-11-20 14:57:28 | INFO     | ✅ 14. Confirmar y procesar reserva de Juan — Exitoso
+2026-11-20 14:57:28 | ERROR    | ❌ Falló: [FJ-202] La sala 'Pequeña B' solo admite 6 personas.
+2026-11-20 14:57:28 | ERROR    | ❌ Falló: [FJ-201] La duración debe ser mayor a cero.
+2026-11-20 14:57:28 | INFO     | Servicio no disponible: Sala: Conferencias A
+2026-11-20 14:57:28 | ERROR    | ❌ Falló: [FJ-301] El servicio 'Sala: Conferencias A' no está disponible.
+2026-11-20 14:57:28 | INFO     | Reserva CANCELADA — Cliente: María Pérez
+2026-11-20 14:57:28 | INFO     | ✅ 18. Cancelar una reserva y verificar estado — Exitoso
+2026-11-20 14:57:28 | ERROR    | ❌ Falló: [FJ-501] No se puede cancelar una reserva PROCESADA
+2026-11-20 14:57:28 | ERROR    | ❌ Falló: [FJ-401] No existe una reserva en el índice 99.
+2026-11-20 14:57:28 | INFO     | ✅ 21. Calcular costo con descuento del 10% — Exitoso
+2026-11-20 14:57:28 | INFO     | Historial de reservas consultado
+2026-11-20 14:57:28 | INFO     | ✅ 22. Listar historial completo de reservas — Exitoso
+2026-11-20 14:57:28 | INFO     | ✅ 23. Verificar archivo de log creado en logs/software_fj.log — Exitoso
+2026-11-20 14:57:28 | INFO     | Simulación finalizada — 23 operaciones completadas
+2026-11-20 15:38:48 | INFO     | ==================================================
+2026-11-20 15:38:48 | INFO     | Inicio de sesión del sistema Software FJ
+2026-11-20 15:38:49 | INFO     | Inicio de simulación de 23 operaciones
+2026-11-20 15:38:49 | DEBUG    | Cliente validado: María Pérez
+2026-11-20 15:38:49 | INFO     | Cliente registrado: María Pérez
+2026-11-20 15:38:49 | INFO     | ✅ 1. Registrar cliente válido — María Pérez — Exitoso
+2026-11-20 15:38:49 | DEBUG    | Cliente validado: Juan Gómez
+2026-11-20 15:38:49 | INFO     | Cliente registrado: Juan Gómez
+2026-11-20 15:38:49 | INFO     | ✅ 2. Registrar cliente válido — Juan Gómez — Exitoso
+2026-11-20 15:38:49 | ERROR    | No se pudo crear el cliente: [FJ-102] El nombre debe tener al menos 2 caracteres.
+2026-11-20 15:38:49 | ERROR    | ❌ Falló: [FJ-102] El nombre debe tener al menos 2 caracteres.
+2026-11-20 15:38:49 | ERROR    | No se pudo crear el cliente: [FJ-101] El documento debe tener al menos 5 dígitos y solo números.
+2026-11-20 15:38:49 | ERROR    | ❌ Falló: [FJ-101] El documento debe tener al menos 5 dígitos y solo números.
+2026-11-20 15:38:49 | ERROR    | No se pudo crear el cliente: [FJ-101] El documento debe tener al menos 5 dígitos y solo números.
+2026-11-20 15:38:49 | ERROR    | ❌ Falló: [FJ-101] El documento debe tener al menos 5 dígitos y solo números.
+2026-11-20 15:38:49 | INFO     | Servicio registrado: Sala: Conferencias A
+2026-11-20 15:38:49 | INFO     | ✅ 6. Crear servicio: Sala de Conferencias A — Exitoso
+2026-11-20 15:38:49 | INFO     | Servicio registrado: Sala: Pequeña B
+2026-11-20 15:38:49 | INFO     | ✅ 7. Crear servicio: Sala Pequeña B — Exitoso
+2026-11-20 15:38:49 | INFO     | Servicio registrado: Equipo: Portátil (HP Pavilion 15)
+2026-11-20 15:38:49 | INFO     | ✅ 8. Crear servicio: Alquiler de Portátil — Exitoso
+2026-11-20 15:38:49 | INFO     | Servicio registrado: Asesoría en Programación
+2026-11-20 15:38:49 | INFO     | ✅ 9. Crear servicio: Asesoría en Programación — Exitoso
+2026-11-20 15:38:49 | INFO     | Servicios disponibles consultados
+2026-11-20 15:38:49 | INFO     | ✅ 10. Listar todos los servicios disponibles — Exitoso
+2026-11-20 15:38:49 | INFO     | Nueva reserva creada — Cliente: María Pérez — Servicio: Sala: Conferencias A
+2026-11-20 15:38:49 | INFO     | Reserva creada en el índice 0
+2026-11-20 15:38:49 | INFO     | ✅ 11. Reserva — María reserva Sala A por 2 horas — Exitoso
+2026-11-20 15:38:49 | INFO     | Nueva reserva creada — Cliente: Juan Gómez — Servicio: Equipo: Portátil (HP Pavilion 15)
+2026-11-20 15:38:49 | INFO     | Reserva creada en el índice 1
+2026-11-20 15:38:49 | INFO     | ✅ 12. Reserva — Juan alquila portátil por 5 horas — Exitoso
+2026-11-20 15:38:49 | INFO     | Reserva CONFIRMADA — Costo: $59,500.0
+2026-11-20 15:38:49 | DEBUG    | Proceso de confirmación finalizado
+2026-11-20 15:38:49 | INFO     | ✅ 13. Confirmar la reserva de María — Exitoso
+2026-11-20 15:38:49 | INFO     | Reserva CONFIRMADA — Costo: $89,250.0
+2026-11-20 15:38:49 | DEBUG    | Proceso de confirmación finalizado
+2026-11-20 15:38:49 | INFO     | Reserva PROCESADA — Servicio: Equipo: Portátil (HP Pavilion 15)
+2026-11-20 15:38:49 | INFO     | ✅ 14. Confirmar y procesar reserva de Juan — Exitoso
+2026-11-20 15:38:49 | ERROR    | ❌ Falló: [FJ-202] La sala 'Pequeña B' solo admite 6 personas.
+2026-11-20 15:38:49 | ERROR    | ❌ Falló: [FJ-201] La duración debe ser mayor a cero.
+2026-11-20 15:38:49 | INFO     | Servicio no disponible: Sala: Conferencias A
+2026-11-20 15:38:49 | ERROR    | ❌ Falló: [FJ-301] El servicio 'Sala: Conferencias A' no está disponible.
+2026-11-20 15:38:49 | INFO     | Reserva CANCELADA — Cliente: María Pérez
+2026-11-20 15:38:49 | INFO     | ✅ 18. Cancelar una reserva y verificar estado — Exitoso
+2026-11-20 15:38:49 | ERROR    | ❌ Falló: [FJ-501] No se puede cancelar una reserva PROCESADA
+2026-11-20 15:38:49 | ERROR    | ❌ Falló: [FJ-401] No existe una reserva en el índice 99.
+2026-11-20 15:38:49 | INFO     | ✅ 21. Calcular costo con descuento del 10% — Exitoso
+2026-11-20 15:38:49 | INFO     | Historial de reservas consultado
+2026-11-20 15:38:49 | INFO     | ✅ 22. Listar historial completo de reservas — Exitoso
+2026-11-20 15:38:49 | INFO     | ✅ 23. Verificar archivo de log creado en logs/software_fj.log — Exitoso
+2026-11-20 15:38:49 | INFO     | Simulación finalizada — 23 operaciones completadas
